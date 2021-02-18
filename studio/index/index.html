@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html> 
+    <head><meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css"></link>
+    <style>*{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+      }
+      body
+      {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.5;
+      
+      
+      }
+      a{
+      text-decoration: none;
+      color: var(--primary-color);
+      
+      
+      }
+      h1{
+          font-weight: 300;
+          font-size: 60px;
+          line-height: 1.2;
+          margin-bottom: 15px;
+      }
+      .showcase{
+          position: relative;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 0 20px;
+      
+      }
+      .video-container{
+          position: absolute;
+          top: 0;
+          left:0;
+          width:100%;
+          height:100%;
+          overflow: hidden;
+          
+          
+      }
+      .content{
+        z-index: 10;
+      }
+       .grid{
+        display:grid;
+        grid-template-columns: 70% 30%;
+        background-color: darkgreen;
+        grid-gap: 1em;
+       }
+
+      .grid > div{
+        background-color:cornsilk ;
+        padding: 1em;
+      }
+      .grid > div:nth-child(){
+        background-color: cornsilk;
+      }
+      
+
+
+    </style>
+       
+
+    </head>
+    
+    <body>
+      
+      <section class="showcase" >
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="ocean.mov.mp4" type="video/mp4">
+          </video>
+        </div>
+    
+        <div class="content">
+            <h1>Baddest Cypher</h1>
+            <p>The studio offers.......................Visit us at .......
+               or contact us on the links below or email us on......
+              Lorem ipsum dolor sit amet consectetur adipisicing
+               elit. Architecto debitis, cum error soluta voluptates amet
+                minus? Recusandae amet consequuntur </p>
+                <a href="#"  class="btn">Read More</a>
+        </div>
+        </div>
+  
+  
+      </section>
+  
+  
+  
+      <br></br>  
+      
+      
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="news.html">News</a>
+        <a href="merchandice.html">Merchadise</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+<br></br>
+
+
+
+
+<br></br>
+<div class="grid">
+     <div>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni itaque dicta numquam
+ quo magnam, expedita blanditiis voluptates voluptatem debitis placeat
+ , iusto illo,officiis neque. Maxime voluptates laboriosam temporibus,
+ 
+ enim in dolor aliquam error placeat, impedit ducimus quae ipsam perferendis eligendi
+  laudantium repellendus deserunt sequi tempore. Reiciendis accusantium aliquid neque
+   maiores odit. Vero temporibus dolorum rem autem nisi error
+ incidunt consequuntur quos, 
+ necessitatibus iste ab quia? Ipsum voluptates distinctio labore libero!</p>
+ <iframe width="420" height="150"
+ src="https://www.youtube.com/embed/g5Duwo4M-4s" frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+     </div>
+     <br></br>
+
+<div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Quidem quaerat aperiam alias sequi dolores voluptatem dolorem quo dignissimos natus at.</p>
+
+   <iframe width="500" height="150"
+   src="https://www.youtube.com/embed/g5Duwo4M-4s" frameborder="0" 
+   allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+    <p>twitter</p>
+    <p>Facebook</p>
+    <p>Instagram</p>
+  </div>
+    </body>
+
+
+</html>
